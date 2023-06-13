@@ -48,34 +48,243 @@
 
 // Utilities
 @import "utilities/api";
-// scss-docs-end import-stack
 
-.brand-text-icon {
-  font-size: 26px;
-  font-weight: 500;
-  font-family: "Poppins", sans-serif;
+// scss-docs-end import-stack
+body {
+  background-color: #f5f5f5;
+}
+
+.textNavbarLogo {
+  margin-left: 10px;
+}
+
+.navbar-brand {
+  font-size: 18px;
+  font-family: "Poppins";
+  color: $primary;
+  margin-right: 50px;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.custom-link {
+  font-size: 14px;
+  font-family: "Poppins";
   color: $primary;
 }
 
+.header-row {
+  text-align: left;
+  align-items: center;
+}
 
-header{
-  border-bottom: 1px solid $gray-200;
-  width : 100%;
-  position : relative;
+.navbar-brand {
+  align-items: center;
+}
 
-  .navbar{
-    height: 80px;
-    li.nav-item{
-      a{
-        &.nav-link{
-          color : $gray-900;
-          padding-left : 1 rem;
-          padding-right: 1 rem;
-          &:hover{
-            text-decoration: underline;
-          }
-        }
-      }
-    }
+.nav-dropdown {
+  font-size: 14px;
+
+  &:hover {
+    text-decoration-line: underline;
+    color: $primary;
+  }
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.image-view {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.container {
+  width: 100%;
+}
+
+//conten hero
+.carousel-item {
+  align-items: center;
+}
+
+.carousel-caption {
+  background-position: center;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  font-weight: lighter;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  h3 {
+    font-size: 45px;
+    color: whitesmoke;
+    z-index: 2;
+  }
+  button {
+    margin-top: 50px;
+  }
+
+  p {
+    color: whitesmoke;
+  }
+}
+
+//about us
+.aboutus-container {
+  margin-top: 15px;
+}
+
+.about-us {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  align-items: center;
+  text-align: center;
+  h6 {
+    font-weight: 100;
+  }
+  .aboutus-text {
+    text-align: justify;
+  }
+}
+.choose-us {
+  align-items: center;
+  text-align: center;
+
+  font-family: "Poppins";
+  h6 {
+    font-weight: 100;
+  }
+}
+
+//Our Teams
+.ourteam-container {
+  align-items: center;
+}
+
+.row-ourteam {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2em 1em;
+  text-align: center;
+  h1 {
+    font-family: "Poppins";
+    width: 100%;
+    text-align: center;
+    font-size: 3.5em;
+    color: #1f003b;
+  }
+  .column {
+    margin-top: 20px;
+    width: 50%;
+    padding: 0.5em 0;
+  }
+  .card p {
+    text-transform: uppercase;
+  }
+}
+
+//styling card
+.card {
+  box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
+  padding: 3.5em 1em;
+  border-radius: 0.6em;
+  color: #1f003b;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: #ffffff;
+}
+.card .img-container {
+  width: 8em;
+  height: 8em;
+  background-color: #c3a22c;
+  padding: 0.5em;
+  border-radius: 50%;
+  margin: 0 auto 2em auto;
+}
+.card img {
+  border-radius: 50%;
+}
+.card h3 {
+  font-weight: 500;
+}
+.card p {
+  font-weight: 300;
+
+  margin: 0.5em 0 2em 0;
+  letter-spacing: 2px;
+}
+.icons {
+  width: 50%;
+  min-width: 180px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.card a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.4em;
+}
+.card:hover {
+  background: linear-gradient(#c3a22c, #7a6b2d);
+  color: #ffffff;
+}
+.card:hover .img-container {
+  transform: scale(1.15);
+}
+@media screen and (min-width: 768px) {
+  section {
+    padding: 1em 7em;
+  }
+}
+@media screen and (min-width: 992px) {
+  section {
+    padding: 1em;
+  }
+  .card {
+    padding: 5em 1em;
+  }
+  .column {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 0 1em;
+  }
+}
+
+//Our Values
+.card {
+  padding-top: 50px;
+  align-items: center;
+  border: none;
+  margin: 0px;
+  img {
+    border: 1px;
+    border-color: black;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+  }
+}
+
+//footer
+footer {
+  margin-top: 10px;
+  h5 {
+    text-align: left;
+    font-weight: bolder;
+    padding-top: 20px;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  li {
+    font-family: "Open Sans", sans-serif;
   }
 }
