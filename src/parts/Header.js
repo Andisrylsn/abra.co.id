@@ -10,21 +10,25 @@ export default function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link className="custom-link" href="#home">
+            <Nav.Link className="custom-link" href="/">
               About
             </Nav.Link>
-            <Nav.Link className="custom-link" href="#link">
+            <Nav.Link className="custom-link" href="/#vision">
               Vision
             </Nav.Link>
             <NavDropdown className="nav-dropdown" title="Our Services" id="basic-nav-dropdown">
-              <NavDropdown.Item className="custom-link" href="services">
+              <NavDropdown.Item className="custom-link" href="/services#portfolio">
+                Portofolio
+              </NavDropdown.Item>
+              <NavDropdown.Item className="custom-link" href="/services#services">
                 Services
               </NavDropdown.Item>
-              <NavDropdown.Item className="custom-link" href="#action/3.2">
+              <NavDropdown.Item className="custom-link" href="/services#client">
                 Our Client
               </NavDropdown.Item>
-              <NavDropdown.Item className="custom-link" href="#action/3.3">
-                Portofolio
+              <NavDropdown.Divider />
+              <NavDropdown.Item className="custom-link" href="/services#contact-us">
+                Contact Us
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>

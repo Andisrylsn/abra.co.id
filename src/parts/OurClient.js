@@ -1,9 +1,30 @@
 import React from "react";
 import { Carousel, Col, Row, Container, Card, Image } from "react-bootstrap";
+import logoPabsi from "../assets/images/Logo/logopabsi.png";
+import logoPerpamsi from ".././assets/images/Logo/logoperpamsi.png";
+import logoPln from ".././assets/images/Logo/logopln.png";
+
+const company = [
+  {
+    logo: logoPabsi,
+    name: "Persatuan Angkat Besi, Binaraga, Angkat Berat Seluruh Indonesia",
+    desc: " organisasi yang mengurusi dan mengembangkan olahraga angkat besi, bina raga, dan angkat berat di Indonesia.",
+  },
+  {
+    logo: logoPerpamsi,
+    name: "Perhimpunan Pekerja Air Minum dan Sanitasi Indonesia",
+    desc: "organisasi yang bergerak di bidang air minum dan sanitasi di Indonesia. Tujuan PERPAMSI adalah meningkatkan pelayanan air minum dan sanitasi untuk masyarakat Indonesia.",
+  },
+  {
+    logo: logoPln,
+    name: "Perusahaan Listrik Negara",
+    desc: "perusahaan yang bergerak di bidang penyediaan listrik di Indonesia. ",
+  },
+];
 
 export default function OurClient() {
   return (
-    <Container>
+    <Container id="client">
       <Row>
         <Container class="container">
           <Row>
@@ -21,17 +42,19 @@ export default function OurClient() {
           <Col className="col-ourclient">
             <Container class="ourclient-abra">
               <Carousel>
-                <Carousel.Item>
-                  <Container className="card-ourclient">
-                    <Card>
-                      <Image src="https://source.unsplash.com/1200x800/?work" alt="image" rounded fluid></Image>
-                      <Card.Body>
-                        <Card.Title>Perpamsi</Card.Title>
-                        <Card.Text>perpamsi cyang</Card.Text>
-                      </Card.Body>
-                    </Card>
-                  </Container>
-                </Carousel.Item>
+                {company.map((comp, index) => (
+                  <Carousel.Item key={index}>
+                    <Container className="card-ourclient">
+                      <Card>
+                        <Image src={comp.logo} alt="image" rounded fluid></Image>
+                        <Card.Body>
+                          <Card.Title>{comp.name}</Card.Title>
+                          <Card.Text>{comp.desc}</Card.Text>
+                        </Card.Body>
+                      </Card>
+                    </Container>
+                  </Carousel.Item>
+                ))}
               </Carousel>
             </Container>
           </Col>

@@ -26,30 +26,32 @@ const cardData = [
 
 export default function WhyChooseUs() {
   return (
-    <Container className="choose-us">
-      <Row>
-        <Col>
-          <Container className="ourvalues-abra">
-            <h1>Our Values</h1>
-            <h6>Media and advertising company that helps you enlarge the business</h6>
-          </Container>
-        </Col>
-      </Row>
-      <Container className="card-chooseus">
-        <Row xs={1} md={2} className="g-4">
-          {cardData.map((card, idx) => (
-            <Col key={idx}>
-              <Card>
-                <Image src={card.imageSrc} alt="image" rounded fluid></Image>
-                <Card.Body>
-                  <Card.Title>{card.title}</Card.Title>
-                  <Card.Text>{card.text}</Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-          ))}
+    <section id="vision">
+      <Container className="choose-us">
+        <Row>
+          <Col>
+            <Container className="ourvalues-abra">
+              <h1>Our Values</h1>
+              <h6>Media and advertising company that helps you enlarge the business</h6>
+            </Container>
+          </Col>
         </Row>
+        <Container className="card-chooseus">
+          <Row xs={1} md={2} className="g-4">
+            {cardData.map((card, idx) => (
+              <Col key={idx}>
+                <Card>
+                  <Image src={card.imageSrc} alt="image" rounded fluid></Image>
+                  <Card.Body>
+                    <Card.Title>{card.title}</Card.Title>
+                    <Card.Text>{card.text}</Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+            ))}
+          </Row>
+        </Container>
       </Container>
-    </Container>
+    </section>
   );
 }

@@ -30,9 +30,9 @@ export default function FooterAbra() {
           <Col md={3}>
             <h5>Contact Us</h5>
             <ul className="list-unstyled">
-              <li>123 Street, Jakarta</li>
-              <li>Email: info@abra.com</li>
-              <li>Phone: 123-456-7890</li>
+              <li>Jakarta Timur</li>
+              <li>Email: abra88.media@gmail.com</li>
+              <li>Phone: 0812-13-1890</li>
             </ul>
           </Col>
         </Row>

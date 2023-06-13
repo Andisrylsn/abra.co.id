@@ -3,34 +3,30 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const services = [
   {
-    title: "Exclusive Agenda Books",
-    description: "Customized agenda books for organizations",
+    title: "Advertising",
+    description: "Customized and give advertising materials for organizations",
   },
   {
     title: "Corporate Profiles",
     description: "Creating compelling company profiles for Organiztions",
   },
   {
-    title: "Directories",
+    title: "Publishing",
     description: "Designing and publishing directories for Organizations",
   },
   {
-    title: "Event Calendars",
-    description: "Developing event calendars for organizations",
+    title: "Event Organizing",
+    description: "Developing and organize event calendars for organizations",
   },
   {
-    title: "Newspapers",
-    description: "Producing high-quality newspapers for organizations needs",
-  },
-  {
-    title: "Outdoor Media",
-    description: "Creating impactful outdoor advertising materials",
+    title: "Printing",
+    description: "Producing high-quality printing for organizations needs",
   },
 ];
 
 export default function OurServices() {
   return (
-    <div>
+    <div id="services">
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
       <div class="section services-section" id="services">
         <div class="container">
@@ -48,7 +44,7 @@ export default function OurServices() {
             <div class="col-sm-6 col-lg-4" key={index}>
               <div class="feature-box-1">
                 <div class="icon">
-                  <i class="fa fa-desktop"></i>
+                  <i class="fa-twitter-square"></i>
                 </div>
                 <div class="feature-content">
                   <h5>{service.title}</h5>

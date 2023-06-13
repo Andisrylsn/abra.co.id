@@ -7,7 +7,7 @@ export default function AboutUs() {
     <Container className="about-us">
       <Container>
         <Row>
-          <Col className="aboutus-container">
+          <Col className="aboutus-container text-center">
             <Container className="aboutus-abra">
               <h2>ABOUT ABRA</h2>
             </Container>
