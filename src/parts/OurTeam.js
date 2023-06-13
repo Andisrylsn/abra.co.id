@@ -1,9 +1,28 @@
 import React from "react";
 import { Image, Container, Col, Row, Card } from "react-bootstrap";
+import AgungDwiMarta from "../assets/images/People/People 1.jpg";
+import Agung from "../assets/images/People/People 2.jpg";
+import BenardineD from "../assets/images/People/People 3.jpg";
+import ChandraSunaryo from "../assets/images/People/People 4.jpg";
 
 const memberData = [
   {
-    image: "https://source.unsplash.com/1200x800/?work",
+    image: AgungDwiMarta,
+    name: "Agung Dwi Marta",
+    position: "Project Manager",
+  },
+  {
+    image: Agung,
+    name: "Agung",
+    position: "Operations Manager",
+  },
+  {
+    image: BenardineD,
+    name: "Benardine D. P.",
+    position: "Director",
+  },
+  {
+    image: ChandraSunaryo,
     name: "Chandra Sunaryo",
     position: "Creative and Marketing Manager",
   },
@@ -24,11 +43,10 @@ export default function OurTeam() {
               </Container>
               <h3>{card.name}</h3>
               <p>{card.position}</p>
-              <div class="icons">
-                <a class="btn btn-primary" role="button" href="#!">
-                  <i class="fab fa-linkedin"></i>
-                </a>
-              </div>
+
+              <a class="btn btn-primary" role="button" href="#!">
+                <i class="fas fa-envelope"></i>
+              </a>
             </Card>
           </Col>
         ))}

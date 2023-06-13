@@ -54,15 +54,22 @@ body {
   background-color: #f5f5f5;
 }
 
+.custome-col {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .textNavbarLogo {
   margin-left: 10px;
 }
 
 .navbar-brand {
-  font-size: 18px;
-  font-family: "Poppins";
   color: $primary;
-  margin-right: 50px;
+
+  span {
+    font-size: 18px;
+    font-family: "Poppins";
+  }
 
   &:hover {
     text-decoration: none;
@@ -93,10 +100,6 @@ body {
   }
 }
 
-.container-fluid {
-  padding-left: 0;
-  padding-right: 0;
-}
 .image-view {
   width: 100vw;
   height: 100vh;
@@ -114,8 +117,10 @@ body {
 
 .carousel-caption {
   background-position: center;
+  width: fit-content;
+  height: fit-content;
   border-radius: 5px;
-  background-color: rgb(0, 0, 0);
+  background-color: #000000;
   background-color: rgba(0, 0, 0, 0.4);
   font-weight: lighter;
   position: absolute;
@@ -134,6 +139,9 @@ body {
 
   p {
     color: whitesmoke;
+  }
+  img {
+    position: relative;
   }
 }
 
@@ -262,9 +270,10 @@ body {
 //Our Values
 .card {
   padding-top: 50px;
+
   align-items: center;
   border: none;
-  margin: 0px;
+  margin: 10px;
   img {
     border: 1px;
     border-color: black;
@@ -276,7 +285,6 @@ body {
 
 //footer
 footer {
-  margin-top: 10px;
   h5 {
     text-align: left;
     font-weight: bolder;
@@ -287,4 +295,185 @@ footer {
   li {
     font-family: "Open Sans", sans-serif;
   }
+}
+
+//Services Page
+/* Feature Box
+---------------------*/
+.ourvalues-abra {
+  align-items: center;
+}
+
+.section {
+  background-color: white;
+  padding: 100px 0;
+  position: relative;
+
+  .feature-box-1 {
+    padding: 32px;
+    box-shadow: 0 0 30px rgba(124, 117, 19, 0.125);
+    margin: 15px 0;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    -moz-transition: ease all 0.35s;
+    -o-transition: ease all 0.35s;
+    -webkit-transition: ease all 0.35s;
+    transition: ease all 0.35s;
+    top: 0;
+  }
+  .feature-box-1 * {
+    -moz-transition: ease all 0.35s;
+    -o-transition: ease all 0.35s;
+    -webkit-transition: ease all 0.35s;
+    transition: ease all 0.35s;
+  }
+  .feature-box-1 .icon {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background: #eeba29;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 50%;
+    margin-bottom: 22px;
+    font-size: 27px;
+  }
+  .feature-box-1 .icon i {
+    line-height: 70px;
+  }
+  .feature-box-1 h5 {
+    color: #aa9136;
+    font-weight: 600;
+  }
+  .feature-box-1 p {
+    margin: 0;
+  }
+  .feature-box-1:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: auto;
+    right: 0;
+    border-radius: 10px;
+    width: 0;
+    background: #aa9136;
+    z-index: -1;
+    -moz-transition: ease all 0.35s;
+    -o-transition: ease all 0.35s;
+    -webkit-transition: ease all 0.35s;
+    transition: ease all 0.35s;
+  }
+  .feature-box-1:hover {
+    top: -5px;
+  }
+  .feature-box-1:hover h5 {
+    color: #ffffff;
+  }
+  .feature-box-1:hover p {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .feature-box-1:hover:after {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    left: 0;
+    right: auto;
+  }
+}
+.section-title {
+  align-items: center;
+  padding-bottom: 45px;
+}
+.section-title h2 {
+  font-weight: 700;
+  color: #aa9136;
+  font-size: 45px;
+  margin: 0 0 15px;
+  border-left: 5px solid #7a6b2d;
+  padding-left: 15px;
+}
+
+.row {
+  .ourvalues-abra {
+    text-align: center;
+  }
+}
+
+//Contact Us
+#contact-us {
+  padding: 80px 0;
+
+  h2 {
+    font-family: "Poppins";
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  p {
+    font-family: "Poppins";
+    margin-bottom: 20px;
+  }
+
+  form {
+    max-width: 400px;
+
+    .form-group {
+      margin-bottom: 20px;
+
+      label {
+        font-weight: bold;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        padding: 10px;
+        border: 1px solid $gray-400;
+        border-radius: 4px;
+        width: 100%;
+
+        &:focus {
+          outline: none;
+          border-color: $primary;
+        }
+      }
+
+      textarea {
+        resize: vertical;
+        height: 120px;
+      }
+    }
+
+    button[type="submit"] {
+      margin-top: 10px;
+      background-color: $primary;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 10px 20px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+
+      &:hover {
+        background-color: darken($primary, 10%);
+      }
+    }
+  }
+
+  .col-lg-6:last-child {
+    margin-top: 30px;
+
+    p {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.card-ourclient {
+  text-align: center;
 }

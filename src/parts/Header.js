@@ -17,7 +17,7 @@ export default function Header() {
               Vision
             </Nav.Link>
             <NavDropdown className="nav-dropdown" title="Our Services" id="basic-nav-dropdown">
-              <NavDropdown.Item className="custom-link" href="#action/3.1">
+              <NavDropdown.Item className="custom-link" href="services">
                 Services
               </NavDropdown.Item>
               <NavDropdown.Item className="custom-link" href="#action/3.2">
