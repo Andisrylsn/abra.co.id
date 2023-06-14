@@ -21,7 +21,9 @@ export default function Hero() {
                   <ReactTypingEffect speed={100} eraseSpeed={0} text={["Welcome to ABRA!"]} />
                 </h3>
                 <p>Media and advertising company that helps you enlarge the business.</p>
-                <Button variant="secondary">About Us</Button>
+                <Button variant="secondary" href="#aboutus">
+                  About Us
+                </Button>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>

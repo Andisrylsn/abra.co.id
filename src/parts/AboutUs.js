@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 export default function AboutUs() {
   return (
-    <Container className="about-us">
+    <Container className="about-us" id="aboutus">
       <Container>
         <Row>
           <Col className="aboutus-container text-center">
