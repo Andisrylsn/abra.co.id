@@ -33,7 +33,7 @@ export default function OurServices() {
           <Row>
             <Col>
               <Container className="ourvalues-abra">
-                <h1>Our Services</h1>
+                <h1>OUR SERVICES</h1>
                 <h6>Media and advertising company that helps you enlarge the business</h6>
               </Container>
             </Col>

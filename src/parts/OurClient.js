@@ -30,7 +30,7 @@ export default function OurClient() {
           <Row>
             <Col>
               <Container className="ourvalues-abra">
-                <h1>Our Client</h1>
+                <h1>OUR CLIENT</h1>
                 <h6>Thanks for our client!</h6>
               </Container>
             </Col>

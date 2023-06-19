@@ -31,7 +31,8 @@ export default function WhyChooseUs() {
         <Row>
           <Col>
             <Container className="ourvalues-abra">
-              <h1>Our Values</h1>
+        
+              <h1>OUR VISION</h1>
               <h6>Media and advertising company that helps you enlarge the business</h6>
             </Container>
           </Col>

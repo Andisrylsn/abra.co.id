@@ -6,6 +6,12 @@ import BenardineD from "../assets/images/People/People 3.jpg";
 import ChandraSunaryo from "../assets/images/People/People 4.jpg";
 
 const memberData = [
+
+  {
+    image: ChandraSunaryo,
+    name: "Chandra Sunaryo",
+    position: "Creative and Marketing Manager",
+  },
   {
     image: AgungDwiMarta,
     name: "Agung Dwi Marta",
@@ -21,19 +27,18 @@ const memberData = [
     name: "Benardine D. P.",
     position: "Director",
   },
-  {
-    image: ChandraSunaryo,
-    name: "Chandra Sunaryo",
-    position: "Creative and Marketing Manager",
-  },
+
 ];
 
 export default function OurTeam() {
   return (
     <Container className="ourteam-container">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
       <Row className="row-ourteam">
         <Row>
-          <h3 class="ourteam">Our Team</h3>
+          <h3 class="ourteam">OUR TEAM</h3>
+        
         </Row>
         {memberData.map((card, idx) => (
           <Col md={4} class="column" key={idx}>
@@ -44,9 +49,17 @@ export default function OurTeam() {
               <h3>{card.name}</h3>
               <p>{card.position}</p>
 
-              <a class="btn btn-primary" role="button" href="#!">
-                <i class="fas fa-envelope"></i>
-              </a>
+              <div class="icons">
+                  <a href="https://www.linkedin.com/company/abra88/">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/company/abra88/">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/company/abra88/">
+                    <i class="fas fa-envelope"></i>
+                  </a>
+                </div>
             </Card>
           </Col>
         ))}

@@ -1,5 +1,6 @@
 import React from "react";
-import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import { Container, Row, Col, Form, Button, Image } from "react-bootstrap";
+import logo from "../assets/images/logoabra.png"
 
 const ContactUs = () => {
   const handleSubmit = (e) => {
@@ -11,7 +12,7 @@ const ContactUs = () => {
       <Container>
         <Row>
           <Col lg={6}>
-            <h2>Contact Us</h2>
+            <h2>CONTACT US</h2>
             <p>We'd love to hear from you. Please fill out the form below and we'll get back to you as soon as possible.</p>
             <Form onSubmit={handleSubmit}>
               <Form.Group controlId="name">
@@ -34,7 +35,12 @@ const ContactUs = () => {
               </Button>
             </Form>
           </Col>
+
+          <Col>
+            <Image src={logo} alt="logo abra contact us"/>
+          </Col>
         </Row>
+  
       </Container>
     </section>
   );

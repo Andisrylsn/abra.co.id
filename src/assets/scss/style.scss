@@ -117,7 +117,7 @@ body {
 
 .carousel-caption {
   background-position: center;
-  width: fit-content;
+  width: 100%;
   height: fit-content;
   border-radius: 5px;
   background-color: #000000;
@@ -237,7 +237,7 @@ body {
 .card .img-container {
   width: 8em;
   height: 8em;
-  background-color: #c3a22c;
+  background-color: white;
   padding: 0.5em;
   border-radius: 50%;
   margin: 0 auto 2em auto;
@@ -260,6 +260,11 @@ body {
   margin: auto;
   display: flex;
   justify-content: space-between;
+  i{
+    &:hover{
+      font-size: larger;
+    }
+  }
 }
 .card a {
   text-decoration: none;
