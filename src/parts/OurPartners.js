@@ -24,14 +24,13 @@ const company = [
 
 export default function OurClient() {
   return (
-    <Container id="client">
+    <Container id="clients">
       <Row>
         <Container class="container">
           <Row>
             <Col>
-              <Container className="ourvalues-abra">
-                <h1>OUR CLIENT</h1>
-                <h6>Thanks for our client!</h6>
+              <Container className="ourvalues-abra" >
+                <h1>OUR PARTNERS</h1>
               </Container>
             </Col>
           </Row>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Image, Container, Col, Row, Card } from "react-bootstrap";
+import {  Container, Col, Row, Card } from "react-bootstrap";
 import AgungDwiMarta from "../assets/images/People/People 1.jpg";
 import Agung from "../assets/images/People/People 2.jpg";
 import BenardineD from "../assets/images/People/People 3.jpg";
@@ -14,7 +14,7 @@ const memberData = [
   },
   {
     image: AgungDwiMarta,
-    name: "Agung Dwi Marta",
+    name: "Agung Dwi Martha",
     position: "Project Manager",
   },
   {
@@ -36,28 +36,31 @@ export default function OurTeam() {
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 
       <Row className="row-ourteam">
-        <Row>
-          <h3 class="ourteam">OUR TEAM</h3>
-        
-        </Row>
+      <Row>
+      <Col className="text-center">
+            <Container className="ourvalues-abra">
+              <h1>OUR TEAM</h1>
+            </Container>
+          </Col>
+          </Row>
         {memberData.map((card, idx) => (
           <Col md={4} class="column" key={idx}>
             <Card class="card">
               <Container class="img-container">
-                <Image src={card.image} alt="No Image Found!" fluid />
+
               </Container>
               <h3>{card.name}</h3>
               <p>{card.position}</p>
 
               <div class="icons">
-                  <a href="https://www.linkedin.com/company/abra88/">
-                    <i class="fab fa-twitter"></i>
+                <a href="mailto:agungberkahrejekiabadi@gmail.com?subject=Partnership&x-scheme-handler=gmail">
+                    <i class="fas fa-envelope"></i>
+                  </a>
+                  <a href="https://wa.me/0845354543">
+                    <i class="fa fa-phone"></i>
                   </a>
                   <a href="https://www.linkedin.com/company/abra88/">
                     <i class="fab fa-linkedin"></i>
-                  </a>
-                  <a href="https://www.linkedin.com/company/abra88/">
-                    <i class="fas fa-envelope"></i>
                   </a>
                 </div>
             </Card>

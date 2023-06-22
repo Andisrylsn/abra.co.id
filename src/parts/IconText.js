@@ -7,10 +7,10 @@ export default function IconText() {
     <Container content="fit">
       <Row>
         <Navbar.Brand className="navbar-brand" href="/">
-          <Col className="flex-column align-items-center">
-            <img class="textNavbarLogo" src={logoAbra} width="40" height="30" className="d-inline-block " alt="logo-abra"></img>
-            <span> PT. Agung Berkah Rejeki Abadi</span>
-          </Col>
+        <Col className="d-flex align-items-center">
+        <img class="textNavbarLogo" src={logoAbra} width="40" height="30" className="d-inline-block " alt="logo-abra" />
+        <h6 className="ml-2 mb-0">PT. Agung Berkah Rejeki Abadi</h6>
+        </Col>
         </Navbar.Brand>
       </Row>
     </Container>

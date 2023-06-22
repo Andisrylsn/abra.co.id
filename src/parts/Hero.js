@@ -21,28 +21,28 @@ export default function Hero() {
                   <ReactTypingEffect speed={100} eraseSpeed={0} text={["WELCOME TO ABRA"]} />
                 </h3>
                 <p>Media and advertising company that helps you enlarge the business.</p>
-                <Button variant="secondary" href="#aboutus">
-                  About Us
+                <Button variant="secondary" href="/">
+                 ABOUT US
                 </Button>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <Image className="d-block w-100 image-view" src="https://source.unsplash.com/1200x800/?work" alt="Second slide" fluid />
               <Carousel.Caption>
-                <h3>Our Services</h3>
-                <p>abra services for customer</p>
-                <Button variant="secondary" href="/services">
-                  Our Services
+                <h3>OUR SERVICES</h3>
+                <p>ABRA services for customers</p>
+                <Button variant="secondary" href="/#services">
+                 More about our services
                 </Button>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <Image className="d-block w-100 image-view" src="https://source.unsplash.com/1200x800/?work" alt="Third slide" fluid />
               <Carousel.Caption>
-                <h3>Our Client</h3>
-                <p>Abra clients</p>
-                <Button variant="secondary" href="/services#ourclient">
-                  Our Client
+                <h3>OUR CLIENTS</h3>
+                <p>ABRA clients</p>
+                <Button variant="secondary" href="/services#ourclients">
+                  OUR CLIENTS
                 </Button>
               </Carousel.Caption>
             </Carousel.Item>

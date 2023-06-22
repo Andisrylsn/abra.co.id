@@ -32,7 +32,7 @@ export default function FooterAbra() {
             <ul className="list-unstyled">
               <li>Jakarta Timur</li>
               <li>Email: abra88.media@gmail.com</li>
-              <li>Phone: 0812-13-1890</li>
+              <li>Phone: +62 881-9983-734</li>
             </ul>
           </Col>
         </Row>

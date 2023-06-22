@@ -2,9 +2,10 @@ import React, { Component } from "react";
 import Header from "../parts/Header";
 import Hero from "../parts/Hero";
 import AboutUs from "../parts/AboutUs";
-import WhyChooseUs from "../parts/WhyChooseUs";
 import FooterAbra from "../parts/FooterAbra";
-import OurTeam from "../parts/OurTeam";
+import Portfolio from "../parts/Portfolio";
+import OurServices from "../parts/OurServices";
+
 
 class LandingPage extends Component {
   constructor(props) {
@@ -17,8 +18,8 @@ class LandingPage extends Component {
         <Header></Header>
         <Hero />
         <AboutUs />
-        <OurTeam />
-        <WhyChooseUs />
+        <OurServices />
+        <Portfolio />
         <FooterAbra />
       </>
     );

@@ -13,18 +13,18 @@ export default function Header() {
             <Nav.Link className="custom-link" href="/">
               About
             </Nav.Link>
-            <Nav.Link className="custom-link" href="/#vision">
-              Vision
+            <Nav.Link className="custom-link" href="/#portfolio">
+              Portfolio
             </Nav.Link>
-            <NavDropdown className="nav-dropdown" title="Our Services" id="basic-nav-dropdown">
-              <NavDropdown.Item className="custom-link" href="/services#portfolio">
-                Portofolio
+            <NavDropdown className="nav-dropdown" title="More" id="basic-nav-dropdown">
+              <NavDropdown.Item className="custom-link" href="/services#ourteam">
+                Our Team
               </NavDropdown.Item>
-              <NavDropdown.Item className="custom-link" href="/services#services">
-                Services
+              <NavDropdown.Item className="custom-link" href="/services#vision">
+                Our Values
               </NavDropdown.Item>
-              <NavDropdown.Item className="custom-link" href="/services#client">
-                Our Client
+              <NavDropdown.Item className="custom-link" href="/services#clients">
+                Our Clients
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item className="custom-link" href="/services#contact-us">

@@ -1,26 +1,30 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
+import logoAdvertising from ".././assets/images/Logo/advertising.png";
+import logoPublishing from ".././assets/images/Logo/publishing.png";
+import logoEventOrganising from ".././assets/images/Logo/eventorganising.png";
+import logoPrinting from ".././assets/images/Logo/printing.png";
 
 const services = [
   {
     title: "Advertising",
     description: "Customized and give advertising materials for organizations",
-  },
-  {
-    title: "Corporate Profiles",
-    description: "Creating compelling company profiles for Organiztions",
+    icon:logoAdvertising,
   },
   {
     title: "Publishing",
-    description: "Designing and publishing directories for Organizations",
+    description: "Creating compelling company profiles for Organiztions",
+    icon:logoPublishing,
   },
   {
-    title: "Event Organizing",
-    description: "Developing and organize event calendars for organizations",
+    title: "Event Oranizing",
+    description: "Designing and publishing directories for Organizations",
+    icon:logoEventOrganising,
   },
   {
     title: "Printing",
-    description: "Producing high-quality printing for organizations needs",
+    description: "Developing and organize event calendars for organizations",
+    icon:logoPrinting,
   },
 ];
 
@@ -39,12 +43,12 @@ export default function OurServices() {
             </Col>
           </Row>
         </div>
-        <div class="row">
+        <div class="row px-3 py-4">
           {services.map((service, index) => (
             <div class="col-sm-6 col-lg-4" key={index}>
               <div class="feature-box-1">
                 <div class="icon">
-                  <i class="fa-twitter-square"></i>
+                  <Image src={service.icon} alt="icon services" fluid></Image>
                 </div>
                 <div class="feature-content">
                   <h5>{service.title}</h5>

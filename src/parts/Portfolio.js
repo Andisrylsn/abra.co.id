@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import ReactTypingEffect from "react-typing-effect";
 import { Carousel, Container, Row, Col, Image } from "react-bootstrap";
 import perpamsi from ".././assets/images/Content/direktoriperpamsi.jpg";
 import perpamsi1 from ".././assets/images/Content/pamsi.jpg";
@@ -78,24 +77,33 @@ export default function Portfolio() {
     },
   ];
   return (
-    <Container id="portfolio" fluid>
+
+    
+    <Container id="portfolio" className="portfolio" fluid>
+         <Row>
+            <Col>
+              <Container className="ourvalues-abra">
+                <h1>OUR PORTFOLIO</h1>
+              </Container>
+            </Col>
+          </Row>
       <Row>
         <Col className="custome-col">
           <Carousel activeIndex={index} onSelect={handleSelect} fade>
-            <Carousel.Item className="carousel-item">
+            {/* <Carousel.Item className="carousel-item">
               <Image className="d-block w-100 image-view " src="https://source.unsplash.com/1200x800/?work" alt="First slide" fluid />
               <Carousel.Caption>
                 <h3>
-                  <ReactTypingEffect speed={100} eraseSpeed={0} text={["Lets see our portfolio!"]} />
+                  <ReactTypingEffect speed={100} eraseSpeed={0} text={["Lets see our portfolio"]} />
                 </h3>
                 <p>Swipe</p>
               </Carousel.Caption>
-            </Carousel.Item>
+            </Carousel.Item> */}
             {portfolio.map((ports, index) => (
               <Carousel.Item className="carousel-item" key={index}>
                 <Image className="d-block w-100 image-view " src={ports.image} alt="First slide" fluid />
                 <Carousel.Caption>
-                  <Image src={ports.image} height={250} width={150}></Image>
+                  <Image src={ports.image} height={600} width={400}></Image>
                   <h5>{ports.name}</h5>
                 </Carousel.Caption>
               </Carousel.Item>

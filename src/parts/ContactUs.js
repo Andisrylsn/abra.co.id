@@ -19,12 +19,18 @@ const ContactUs = () => {
                 <Form.Label>Your Name</Form.Label>
                 <Form.Control type="text" placeholder="Enter your name" required />
               </Form.Group>
+              
+              <Form.Group controlId="email">
+                <Form.Label>Subject Email</Form.Label>
+                <Form.Control type="text" placeholder="Enter your subject email" required />
+              </Form.Group>
 
               <Form.Group controlId="email">
                 <Form.Label>Your Email</Form.Label>
                 <Form.Control type="email" placeholder="Enter your email" required />
               </Form.Group>
 
+          
               <Form.Group controlId="message">
                 <Form.Label>Message</Form.Label>
                 <Form.Control as="textarea" rows={5} placeholder="Enter your message" required />

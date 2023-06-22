@@ -77,7 +77,7 @@ body {
 }
 
 .custom-link {
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Poppins";
   color: $primary;
 }
@@ -89,11 +89,16 @@ body {
 
 .navbar-brand {
   align-items: center;
+  span{
+    font-family: "Poppins";
+  }
 }
 
 .nav-dropdown {
   font-size: 14px;
-
+  a{
+    font-family: "Poppins";
+  }
   &:hover {
     text-decoration-line: underline;
     color: $primary;
@@ -102,8 +107,9 @@ body {
 
 .image-view {
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   object-fit: cover;
+  background-color: #ffffff;
 }
 
 .container {
@@ -148,11 +154,17 @@ body {
 //about us
 .aboutus-container {
   width: 100vw;
-  height: 50vh;
-  margin-top: 15px;
+  height: 100vh;
+  margin-top: 10px;
   align-items: center;
   text-align: center;
+
 }
+
+.card-fixed-height {
+  height: 400px;
+}
+
 
 .about-us {
   margin-top: 150px;
@@ -162,10 +174,7 @@ body {
   text-align: center;
   h6 {
     font-weight: 300;
-    font-size: medium;
-    &:hover {
-      font-size: larger;
-    }
+    font-size: larger;
   }
 
   h2 {
@@ -191,7 +200,11 @@ body {
 
 //Our Teams
 .ourteam-container {
+  width: 100vw;
+  height: 100vh;
   align-items: center;
+  padding-top: 15px;
+  
 }
 
 .row-ourteam {
@@ -206,13 +219,6 @@ body {
     }
   }
 
-  h1 {
-    font-family: "Poppins";
-    width: 100%;
-    text-align: center;
-    font-size: 3.5em;
-    color: #1f003b;
-  }
 
   .column {
     margin-top: 20px;
@@ -299,7 +305,11 @@ body {
 
 //Our Values
 
-h1 {
+
+h3 {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ display: block;
+ font-size: 45px;
   font-size: larger;
   &:hover {
     font-size: xx-large;
@@ -308,13 +318,14 @@ h1 {
 
 h6 {
   font-size: medium;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   &:hover {
     font-size: large;
   }
 }
 .card {
   padding-top: 50px;
-
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   align-items: center;
   border: none;
   margin: 10px;
@@ -374,8 +385,8 @@ footer {
     transition: ease all 0.35s;
   }
   .feature-box-1 .icon {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     line-height: 70px;
     background: #eeba29;
     color: #ffffff;
@@ -441,10 +452,21 @@ footer {
 }
 
 .row {
+
   .ourvalues-abra {
     text-align: center;
   }
 }
+
+
+//portfolio
+.portfolio{
+  background-color: white;
+  padding: 10px;
+
+  
+}
+
 
 //Contact Us
 #contact-us {
