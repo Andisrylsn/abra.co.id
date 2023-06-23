@@ -51,7 +51,7 @@
 
 // scss-docs-end import-stack
 body {
-  background-color: #f5f5f5;
+  background-color: #ffffff;
 }
 
 .custome-col {
@@ -89,14 +89,14 @@ body {
 
 .navbar-brand {
   align-items: center;
-  span{
+  span {
     font-family: "Poppins";
   }
 }
 
 .nav-dropdown {
   font-size: 14px;
-  a{
+  a {
     font-family: "Poppins";
   }
   &:hover {
@@ -107,7 +107,7 @@ body {
 
 .image-view {
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
   object-fit: cover;
   background-color: #ffffff;
 }
@@ -137,7 +137,6 @@ body {
   h3 {
     font-size: 45px;
     color: whitesmoke;
-    z-index: 2;
   }
   button {
     margin-top: 50px;
@@ -152,19 +151,25 @@ body {
 }
 
 //about us
-.aboutus-container {
-  width: 100vw;
-  height: 100vh;
-  margin-top: 10px;
+
+.header-section {
+  margin-top: 16px;
   align-items: center;
   text-align: center;
-
+  h6 {
+    margin-bottom: 32px;
+    display: block;
+    font-size: medium;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    &:hover {
+      font-size: large;
+    }
+  }
 }
 
 .card-fixed-height {
   height: 400px;
 }
-
 
 .about-us {
   margin-top: 150px;
@@ -172,10 +177,7 @@ body {
   padding-bottom: 100px;
   align-items: center;
   text-align: center;
-  h6 {
-    font-weight: 300;
-    font-size: larger;
-  }
+  background-color: white;
 
   h2 {
     font-size: larger;
@@ -186,12 +188,18 @@ body {
 
   .aboutus-text {
     text-align: justify;
+    h6 {
+      font-weight: lighter;
+      font-size: medium;
+      &:hover {
+        font-size: large;
+      }
+    }
   }
 }
 .choose-us {
   align-items: center;
   text-align: center;
-
   font-family: "Poppins";
   h6 {
     font-weight: 100;
@@ -204,7 +212,6 @@ body {
   height: 100vh;
   align-items: center;
   padding-top: 15px;
-  
 }
 
 .row-ourteam {
@@ -218,7 +225,6 @@ body {
       font-size: xx-large;
     }
   }
-
 
   .column {
     margin-top: 20px;
@@ -266,8 +272,8 @@ body {
   margin: auto;
   display: flex;
   justify-content: space-between;
-  i{
-    &:hover{
+  i {
+    &:hover {
       font-size: larger;
     }
   }
@@ -305,27 +311,19 @@ body {
 
 //Our Values
 
-
 h3 {
- font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- display: block;
- font-size: 45px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: block;
+  font-size: 45px;
   font-size: larger;
   &:hover {
     font-size: xx-large;
   }
 }
 
-h6 {
-  font-size: medium;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  &:hover {
-    font-size: large;
-  }
-}
 .card {
   padding-top: 50px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   align-items: center;
   border: none;
   margin: 10px;
@@ -369,7 +367,6 @@ footer {
     box-shadow: 0 0 30px rgba(124, 117, 19, 0.125);
     margin: 15px 0;
     position: relative;
-    z-index: 1;
     border-radius: 10px;
     overflow: hidden;
     -moz-transition: ease all 0.35s;
@@ -389,7 +386,7 @@ footer {
     height: 80px;
     line-height: 70px;
     background: #eeba29;
-    color: #ffffff;
+    color: #aa9136;
     text-align: center;
     border-radius: 50%;
     margin-bottom: 22px;
@@ -425,10 +422,10 @@ footer {
     top: -5px;
   }
   .feature-box-1:hover h5 {
-    color: #ffffff;
+    color: #eeba29;
   }
   .feature-box-1:hover p {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 0.8);
   }
   .feature-box-1:hover:after {
     width: 100%;
@@ -452,21 +449,15 @@ footer {
 }
 
 .row {
-
   .ourvalues-abra {
     text-align: center;
   }
 }
 
-
 //portfolio
-.portfolio{
+.portfolio {
   background-color: white;
-  padding: 10px;
-
-  
 }
-
 
 //Contact Us
 #contact-us {

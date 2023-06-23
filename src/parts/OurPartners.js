@@ -1,6 +1,6 @@
 import React from "react";
 import { Carousel, Col, Row, Container, Card, Image } from "react-bootstrap";
-import logoPabsi from "../assets/images/Logo/logopabsi.png";
+import logoPabsi from "../assets/images/Logo/perpamsitirtadharma.jpg";
 import logoPerpamsi from ".././assets/images/Logo/logoperpamsi.png";
 import logoPln from ".././assets/images/Logo/logopln.png";
 
@@ -29,8 +29,9 @@ export default function OurClient() {
         <Container class="container">
           <Row>
             <Col>
-              <Container className="ourvalues-abra" >
+              <Container className="header-section">
                 <h1>OUR PARTNERS</h1>
+                <h6>Media and advertising company that helps you enlarge the business</h6>
               </Container>
             </Col>
           </Row>

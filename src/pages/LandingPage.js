@@ -6,7 +6,6 @@ import FooterAbra from "../parts/FooterAbra";
 import Portfolio from "../parts/Portfolio";
 import OurServices from "../parts/OurServices";
 
-
 class LandingPage extends Component {
   constructor(props) {
     super(props);

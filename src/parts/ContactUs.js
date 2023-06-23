@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Form, Button, Image } from "react-bootstrap";
-import logo from "../assets/images/logoabra.png"
+import logo from "../assets/images/logoabra.png";
 
 const ContactUs = () => {
   const handleSubmit = (e) => {
@@ -12,14 +12,20 @@ const ContactUs = () => {
       <Container>
         <Row>
           <Col lg={6}>
-            <h2>CONTACT US</h2>
-            <p>We'd love to hear from you. Please fill out the form below and we'll get back to you as soon as possible.</p>
+            <Row>
+              <Col>
+                <Container className="header-section">
+                  <h1>CONTACT US</h1>
+                  <h6>Media and advertising company that helps you enlarge the business</h6>
+                </Container>
+              </Col>
+            </Row>
             <Form onSubmit={handleSubmit}>
               <Form.Group controlId="name">
                 <Form.Label>Your Name</Form.Label>
                 <Form.Control type="text" placeholder="Enter your name" required />
               </Form.Group>
-              
+
               <Form.Group controlId="email">
                 <Form.Label>Subject Email</Form.Label>
                 <Form.Control type="text" placeholder="Enter your subject email" required />
@@ -30,7 +36,6 @@ const ContactUs = () => {
                 <Form.Control type="email" placeholder="Enter your email" required />
               </Form.Group>
 
-          
               <Form.Group controlId="message">
                 <Form.Label>Message</Form.Label>
                 <Form.Control as="textarea" rows={5} placeholder="Enter your message" required />
@@ -43,10 +48,9 @@ const ContactUs = () => {
           </Col>
 
           <Col>
-            <Image src={logo} alt="logo abra contact us"/>
+            <Image src={logo} alt="logo abra contact us" fluid />
           </Col>
         </Row>
-  
       </Container>
     </section>
   );

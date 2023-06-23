@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Card} from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 
 const cardData = [
   {
@@ -17,32 +17,25 @@ const cardData = [
     text: "ABRA memiliki sikap inovatif dan menjunjung tinggi integritas, teamwork, dan keterbukaan.",
     imageSrc: "",
   },
- 
 ];
 
 export default function WhyChooseUs() {
   return (
-    <section id="vision">
+    <Container className="ourvalues" fluid>
+      <Row>
+        <Col>
+          <Container className="header-section">
+            <h1>OUR VALUES</h1>
+            <h6>Media and advertising company that helps you enlarge the business</h6>
+          </Container>
+        </Col>
+      </Row>
       <Container className="choose-us">
-        <Row>
-          <Col>
-          <Row>
-          <Col className="text-center">
-            <Container className="ourvalues-abra">
-              <h1>OUR VALUES</h1>
-            </Container>
-          </Col>
-          </Row>
-          </Col>
-        </Row>
-      
-      
         <Container className="card-chooseus">
           <Row xs={1} md={3} className="g-4">
             {cardData.map((card, idx) => (
-              <Col key={idx} >
-                <Card className="card-fixed-height"s>
-
+              <Col key={idx}>
+                <Card className="card-fixed-height">
                   <Card.Body>
                     <Card.Title>{card.title}</Card.Title>
                     <Card.Text>{card.text}</Card.Text>
@@ -53,6 +46,6 @@ export default function WhyChooseUs() {
           </Row>
         </Container>
       </Container>
-    </section>
+    </Container>
   );
 }

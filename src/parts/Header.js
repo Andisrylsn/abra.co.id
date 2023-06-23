@@ -17,17 +17,17 @@ export default function Header() {
               Portfolio
             </Nav.Link>
             <NavDropdown className="nav-dropdown" title="More" id="basic-nav-dropdown">
-              <NavDropdown.Item className="custom-link" href="/services#ourteam">
+              <NavDropdown.Item className="custom-link" href="/more#ourteam">
                 Our Team
               </NavDropdown.Item>
-              <NavDropdown.Item className="custom-link" href="/services#vision">
+              <NavDropdown.Item className="custom-link" href="/more#vision">
                 Our Values
               </NavDropdown.Item>
-              <NavDropdown.Item className="custom-link" href="/services#clients">
+              <NavDropdown.Item className="custom-link" href="/more#clients">
                 Our Clients
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item className="custom-link" href="/services#contact-us">
+              <NavDropdown.Item className="custom-link" href="/more#contact-us">
                 Contact Us
               </NavDropdown.Item>
             </NavDropdown>

@@ -9,22 +9,22 @@ const services = [
   {
     title: "Advertising",
     description: "Customized and give advertising materials for organizations",
-    icon:logoAdvertising,
+    icon: logoAdvertising,
   },
   {
     title: "Publishing",
     description: "Creating compelling company profiles for Organiztions",
-    icon:logoPublishing,
+    icon: logoPublishing,
   },
   {
     title: "Event Oranizing",
     description: "Designing and publishing directories for Organizations",
-    icon:logoEventOrganising,
+    icon: logoEventOrganising,
   },
   {
     title: "Printing",
     description: "Developing and organize event calendars for organizations",
-    icon:logoPrinting,
+    icon: logoPrinting,
   },
 ];
 
@@ -36,7 +36,7 @@ export default function OurServices() {
         <div class="container">
           <Row>
             <Col>
-              <Container className="ourvalues-abra">
+              <Container className="header-section">
                 <h1>OUR SERVICES</h1>
                 <h6>Media and advertising company that helps you enlarge the business</h6>
               </Container>

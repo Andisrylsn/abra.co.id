@@ -20,10 +20,10 @@ export default function FooterAbra() {
                 <a href="/about">About</a>
               </li>
               <li>
-                <a href="/services">Services</a>
+                <a href="/more">Services</a>
               </li>
               <li>
-                <a href="/contact">Contact</a>
+                <a href="/more#contact">Contact</a>
               </li>
             </ul>
           </Col>

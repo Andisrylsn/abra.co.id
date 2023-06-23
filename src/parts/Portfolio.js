@@ -77,16 +77,15 @@ export default function Portfolio() {
     },
   ];
   return (
-
-    
     <Container id="portfolio" className="portfolio" fluid>
-         <Row>
-            <Col>
-              <Container className="ourvalues-abra">
-                <h1>OUR PORTFOLIO</h1>
-              </Container>
-            </Col>
-          </Row>
+      <Row>
+        <Col>
+          <Container className="header-section">
+            <h1>OUR PORTFOLIO</h1>
+            <h6>Media and advertising company that helps you enlarge the business</h6>
+          </Container>
+        </Col>
+      </Row>
       <Row>
         <Col className="custome-col">
           <Carousel activeIndex={index} onSelect={handleSelect} fade>
@@ -103,7 +102,7 @@ export default function Portfolio() {
               <Carousel.Item className="carousel-item" key={index}>
                 <Image className="d-block w-100 image-view " src={ports.image} alt="First slide" fluid />
                 <Carousel.Caption>
-                  <Image src={ports.image} height={600} width={400}></Image>
+                  <Image src={ports.image} height={300} width={200}></Image>
                   <h5>{ports.name}</h5>
                 </Carousel.Caption>
               </Carousel.Item>

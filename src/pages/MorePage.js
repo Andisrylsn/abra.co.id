@@ -4,16 +4,15 @@ import FooterAbra from "../parts/FooterAbra";
 import ContactUs from "../parts/ContactUs";
 import OurClient from "../parts/OurPartners";
 import OurTeam from "../parts/OurTeam";
-
 import WhyChooseUs from "../parts/WhyChooseUs";
 
 class ServicesPage extends Component {
   render() {
     return (
       <>
-        <Header />
+        <Header></Header>
         <OurTeam />
-        <WhyChooseUs/>
+        <WhyChooseUs />
         <OurClient />
         <ContactUs />
         <FooterAbra />
