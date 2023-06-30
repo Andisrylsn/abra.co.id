@@ -17,7 +17,7 @@ export default function Header() {
               Portfolio
             </Nav.Link>
             <NavDropdown className="nav-dropdown" title="More" id="basic-nav-dropdown">
-              <NavDropdown.Item className="custom-link" href="/more#ourteam">
+              <NavDropdown.Item className="custom-link" href="/abra.co.id/more">
                 Our Team
               </NavDropdown.Item>
               <NavDropdown.Item className="custom-link" href="/more#vision">
