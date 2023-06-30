@@ -10,7 +10,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/abra.co.id" Component={LandingPage}></Route>
-          <Route path="/more" Component={MorePage}></Route>
+          <Route path="/abra.co.id/more" Component={MorePage}></Route>
         </Routes>
       </Router>
     </div>
