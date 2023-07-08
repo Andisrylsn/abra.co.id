@@ -10,10 +10,10 @@ export default function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link className="custom-link" href="/">
+            <Nav.Link className="custom-link" href="/abra.co.id">
               About
             </Nav.Link>
-            <Nav.Link className="custom-link" href="/#portfolio">
+            <Nav.Link className="custom-link" href="/abra.co.id/#portfolio">
               Portfolio
             </Nav.Link>
             <NavDropdown className="nav-dropdown" title="More" id="basic-nav-dropdown">

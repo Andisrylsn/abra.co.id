@@ -14,16 +14,16 @@ export default function FooterAbra() {
             <h5>Quick Links</h5>
             <ul className="list-unstyled">
               <li>
-                <a href="/">Home</a>
+                <a href="/abra.co.id">Home</a>
               </li>
               <li>
-                <a href="/about">About</a>
+                <a href="/abra.co.id/#aboutus">About</a>
               </li>
               <li>
-                <a href="/more">Services</a>
+                <a href="/abra.co.id/more/#services">Services</a>
               </li>
               <li>
-                <a href="/more#contact">Contact</a>
+                <a href="/abra.co.id/more/#contactus">Contact</a>
               </li>
             </ul>
           </Col>
