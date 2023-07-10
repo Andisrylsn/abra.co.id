@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/abra.co.id/static/css/main.fa3e9bbd.css",
-    "main.js": "/abra.co.id/static/js/main.70831940.js",
+    "main.css": "/abra.co.id/static/css/main.64f664fd.css",
+    "main.js": "/abra.co.id/static/js/main.5b537066.js",
     "static/js/787.dc8fee59.chunk.js": "/abra.co.id/static/js/787.dc8fee59.chunk.js",
     "static/media/logoabra.png": "/abra.co.id/static/media/logoabra.f2bd7b4231c487b6475e.png",
     "static/media/pamsi.jpg": "/abra.co.id/static/media/pamsi.aca662855ebdd9bd82be.jpg",
@@ -13,20 +13,19 @@
     "static/media/direktoriperpamsi.jpg": "/abra.co.id/static/media/direktoriperpamsi.2c184e6d6208f0efb707.jpg",
     "static/media/pamsijawatimur.jpg": "/abra.co.id/static/media/pamsijawatimur.d0d3a6a72ea0dd0baf37.jpg",
     "static/media/limapuluhtahunperpamsi.jpg": "/abra.co.id/static/media/limapuluhtahunperpamsi.46cda0a88a9febc891c9.jpg",
-    "static/media/logoperpamsi.png": "/abra.co.id/static/media/logoperpamsi.56840e343eeb53497313.png",
     "static/media/logopln.png": "/abra.co.id/static/media/logopln.8695c52222b862349086.png",
     "static/media/pln.jpg": "/abra.co.id/static/media/pln.0cc2c5869fb80f6455d8.jpg",
+    "static/media/perpamsi1.png": "/abra.co.id/static/media/perpamsi1.642af0b16d7ff43a945e.png",
     "static/media/People 2.jpg": "/abra.co.id/static/media/People 2.16cb2a62de145b3f8686.jpg",
     "static/media/People 3.jpg": "/abra.co.id/static/media/People 3.31ead7180334719f3c22.jpg",
     "static/media/People 1.jpg": "/abra.co.id/static/media/People 1.3fa5dcd4b52752149fe1.jpg",
-    "static/media/perpamsitirtadharma.jpg": "/abra.co.id/static/media/perpamsitirtadharma.046d094f657ca0216813.jpg",
     "index.html": "/abra.co.id/index.html",
-    "main.fa3e9bbd.css.map": "/abra.co.id/static/css/main.fa3e9bbd.css.map",
-    "main.70831940.js.map": "/abra.co.id/static/js/main.70831940.js.map",
+    "main.64f664fd.css.map": "/abra.co.id/static/css/main.64f664fd.css.map",
+    "main.5b537066.js.map": "/abra.co.id/static/js/main.5b537066.js.map",
     "787.dc8fee59.chunk.js.map": "/abra.co.id/static/js/787.dc8fee59.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa3e9bbd.css",
-    "static/js/main.70831940.js"
+    "static/css/main.64f664fd.css",
+    "static/js/main.5b537066.js"
   ]
 }
