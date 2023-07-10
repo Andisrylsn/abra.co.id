@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/abra.co.id" Component={LandingPage}></Route>
+          <Route exact path="/abra.co.id" Component={LandingPage}></Route>
           <Route path="/abra.co.id/more" Component={MorePage}></Route>
         </Routes>
       </Router>
