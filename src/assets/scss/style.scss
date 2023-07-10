@@ -82,7 +82,7 @@ body {
 
 .custom-link {
   font-size: 16px;
-  font-family: "Poppins";
+  font-family:  "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: $primary;
 }
 
@@ -99,9 +99,11 @@ body {
 }
 
 .nav-dropdown {
-  font-size: 14px;
+  color: $primary;
   a {
-    font-family: "Poppins";
+    font-size: 16px;
+    color: $primary;
+    font-family:  "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
   &:hover {
     text-decoration-line: underline;
@@ -125,29 +127,46 @@ body {
   align-items: center;
 }
 
+.carousel-control-next-icon{
+background-color: #000000;
+}
+
+.carousel-control-prev-icon{
+  background-color: #000000;
+  }
+
 .carousel-caption {
   background-position: center;
   width: 100%;
   height: fit-content;
   border-radius: 5px;
   background-color: #000000;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(255, 255, 255, 0.4);
   font-weight: lighter;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 
+  h6{
+    color: #000000;
+  }
+
+  
+  h5{
+    color: #000000;
+  }
+
   h3 {
     font-size: 45px;
-    color: whitesmoke;
+    color: black;
   }
   button {
     margin-top: 50px;
   }
 
   p {
-    color: whitesmoke;
+    color: black;
   }
   img {
     position: relative;
@@ -342,16 +361,14 @@ h3 {
 
 //footer
 footer {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   h5 {
     text-align: left;
     font-weight: bolder;
     padding-top: 20px;
-    font-family: "Open Sans", sans-serif;
+   
   }
 
-  li {
-    font-family: "Open Sans", sans-serif;
-  }
 }
 
 //Services Page
@@ -361,9 +378,7 @@ footer {
   align-items: center;
 }
 
-.ourvalues {
-  height: 100vh;
-}
+
 
 .section {
   background-color: white;

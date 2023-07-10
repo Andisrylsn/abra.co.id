@@ -13,7 +13,7 @@ export default function Hero() {
     <Container fluid>
       <Row>
         <Col className="custome-col">
-          <Carousel activeIndex={index} onSelect={handleSelect} fade>
+          <Carousel class="carousel slide" activeIndex={index} onSelect={handleSelect} fade>
             <Carousel.Item className="carousel-item">
               <Image className="d-block w-100 image-view " src="https://source.unsplash.com/1200x800/?work" alt="First slide" fluid />
               <Carousel.Caption>

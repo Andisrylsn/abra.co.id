@@ -39,16 +39,16 @@ export default function OurClient() {
                 {company.map((comp, index) => (
                   <Carousel.Item key={index}>
                     <Container className="card-ourclient">
-                      <Card>
+                    <Card>
                         <Image
                           src={comp.logo}
                           alt="image"
                           rounded
                           fluid
                           style={{
-                            maxWidth: "600px", // Set the maximum width to 600 pixels
-                            maxHeight: "400px", // Set the maximum height to 600 pixels
-                            width: "auto", // Allow the width to adjust based on the aspect ratio
+                            maxWidth: "600px", 
+                            maxHeight: "400px", 
+                            width: "auto", 
                             height: "400px", // Allow the height to adjust based on the aspect ratio
                             objectFit: "contain", //op or scale the image to fit within the specified dimensions
                           }}

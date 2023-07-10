@@ -8,7 +8,7 @@ const ContactUs = () => {
   };
 
   return (
-    <section id="contact-us" className="bg-light">
+    <section id="contactus" className="bg-light">
       <Container>
         <Row>
           <Col lg={6}>

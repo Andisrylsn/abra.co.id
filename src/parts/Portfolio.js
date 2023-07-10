@@ -12,6 +12,7 @@ import perpamsi2016 from ".././assets/images/Content/Perpamsi 2016.jpg";
 import perpamsi2014 from ".././assets/images/Content/perpamsi2014.jpg";
 import pln from ".././assets/images/Content/pln.jpg";
 import ppamsi from ".././assets/images/Content/ppamsi.jpg";
+import whitebackground from ".././assets/images/whitebackground.jpg";
 
 export default function Portfolio() {
   const [index, setIndex] = useState(0);
@@ -88,7 +89,7 @@ export default function Portfolio() {
       </Row>
       <Row>
         <Col className="custome-col">
-          <Carousel activeIndex={index} onSelect={handleSelect} fade>
+          <Carousel class="carousel slide" activeIndex={index} onSelect={handleSelect} fade>
             {/* <Carousel.Item className="carousel-item">
               <Image className="d-block w-100 image-view " src="https://source.unsplash.com/1200x800/?work" alt="First slide" fluid />
               <Carousel.Caption>
@@ -98,15 +99,20 @@ export default function Portfolio() {
                 <p>Swipe</p>
               </Carousel.Caption>
             </Carousel.Item> */}
+            
             {portfolio.map((ports, index) => (
+              
               <Carousel.Item className="carousel-item" key={index}>
-                <Image className="d-block w-100 image-view " src={ports.image} alt="First slide" fluid />
+                <Image className="d-block w-100 image-view " src={whitebackground} alt="First slide" fluid />
                 <Carousel.Caption>
                   <Image src={ports.image} height={300} width={200}></Image>
                   <h5>{ports.name}</h5>
+                  <h6>description</h6>
                 </Carousel.Caption>
               </Carousel.Item>
+              
             ))}
+            
           </Carousel>
         </Col>
       </Row>

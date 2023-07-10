@@ -11,21 +11,7 @@ export default function FooterAbra() {
             <p>ABRA (PT Agung Berkah Rejeki Abadi) is an advertising company based in Jakarta, Indonesia. We specialize in providing advertising and publishing services for various industries.</p>
           </Col>
           <Col md={3}>
-            <h5>Quick Links</h5>
-            <ul className="list-unstyled">
-              <li>
-                <a href="/abra.co.id">Home</a>
-              </li>
-              <li>
-                <a href="/abra.co.id/#aboutus">About</a>
-              </li>
-              <li>
-                <a href="/abra.co.id/more/#services">Services</a>
-              </li>
-              <li>
-                <a href="/abra.co.id/more/#contactus">Contact</a>
-              </li>
-            </ul>
+          
           </Col>
           <Col md={3}>
             <h5>Contact Us</h5>

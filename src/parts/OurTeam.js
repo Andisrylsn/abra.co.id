@@ -32,7 +32,7 @@ export default function OurTeam() {
   return (
     <Container fluid>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-      <Row className="row-ourteam">
+      <Row id="ourteam" className="row-ourteam">
         <Row>
           <Row>
             <Col>
