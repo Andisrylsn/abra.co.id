@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import "./assets/scss/style.scss";
 import LandingPage from "./pages/LandingPage";
 import MorePage from "./pages/MorePage";
@@ -7,12 +7,10 @@ import MorePage from "./pages/MorePage";
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Routes>
-          <Route exact path="/abra.co.id" Component={LandingPage}></Route>
-          <Route path="/abra.co.id/more" Component={MorePage}></Route>
-        </Routes>
-      </Router>
+      <Routes>
+        <Route exact path="/abra.co.id" Component={LandingPage}></Route>
+        <Route path="/abra.co.id/more" Component={MorePage}></Route>
+      </Routes>
     </div>
   );
 }

@@ -6,7 +6,7 @@ import OurClient from "../parts/OurPartners";
 import OurTeam from "../parts/OurTeam";
 import WhyChooseUs from "../parts/WhyChooseUs";
 
-class ServicesPage extends Component {
+class MorePage extends Component {
   render() {
     return (
       <>
@@ -20,4 +20,4 @@ class ServicesPage extends Component {
     );
   }
 }
-export default ServicesPage;
+export default MorePage;
