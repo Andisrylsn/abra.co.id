@@ -19,6 +19,7 @@ export default function AboutUs() {
             <Container className="aboutus-text">
               <h6>
                 <p>
+    Test
                   Kisah kami dimulai pada tahun 2006 di Jakarta dengan penawaran iklan untuk <em>company branding</em> dan penerbitan layanan penuh untuk Persatuan Perusahaan Air Minum Indonesia (PERPAMSI) dan Perusahaan Daerah Air Minum (PDAM).
                 </p> 
                 <p>
