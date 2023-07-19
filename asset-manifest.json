@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/abra.co.id/static/css/main.64f664fd.css",
-    "main.js": "/abra.co.id/static/js/main.df1d3f18.js",
+    "main.js": "/abra.co.id/static/js/main.02205b55.js",
     "static/js/787.dc8fee59.chunk.js": "/abra.co.id/static/js/787.dc8fee59.chunk.js",
     "static/media/logoabra.png": "/abra.co.id/static/media/logoabra.f2bd7b4231c487b6475e.png",
     "static/media/pamsi.jpg": "/abra.co.id/static/media/pamsi.aca662855ebdd9bd82be.jpg",
@@ -21,11 +21,11 @@
     "static/media/People 1.jpg": "/abra.co.id/static/media/People 1.3fa5dcd4b52752149fe1.jpg",
     "index.html": "/abra.co.id/index.html",
     "main.64f664fd.css.map": "/abra.co.id/static/css/main.64f664fd.css.map",
-    "main.df1d3f18.js.map": "/abra.co.id/static/js/main.df1d3f18.js.map",
+    "main.02205b55.js.map": "/abra.co.id/static/js/main.02205b55.js.map",
     "787.dc8fee59.chunk.js.map": "/abra.co.id/static/js/787.dc8fee59.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.64f664fd.css",
-    "static/js/main.df1d3f18.js"
+    "static/js/main.02205b55.js"
   ]
 }
